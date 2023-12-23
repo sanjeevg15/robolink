@@ -1,0 +1,19 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "editor.tokenColorCustomizations": {
+        "[*]": {
+            "textMateRules": [
+                {
+                    "name": "Docstrings", 
+                    "scope": "string.quoted.docstring", 
+                    "settings": {
+                        "foreground": "#CE9178",
+                    }
+                }
+            ]
+        }
+    }
+}
