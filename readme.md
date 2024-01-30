@@ -14,13 +14,13 @@ This is a simple simulation of a three-link planar serial manipulator.
 ## Usage Documentation
 
 Run the serial_manipulator_sim.py file \
- ```python serial_manipulator.py```\
+ ```python main.py```\
 Options:\
-```python serial_manipulator.py --allow_negative_y``` to allow target locations for the end-effector to     be below the x-axis.\
-```python serial_manipulator.py --optimization_algorithm box-search``` for box optimization using box-search (default and preferred). \
-```python serial_manipulator.py --optimization_algorithm gradient-descent``` for gradient descent.\
-```python serial_manipulator.py --wait_time 10``` for specifying wait time (in miliseconds) between frames. (default: 250) \
-```python serial_manipulator.py --num_points 10``` for specifying the number of points to use for the box-search. (default: 100) \
+```python main.py --allow_negative_y``` to allow target locations for the end-effector to     be below the x-axis.\
+```python main.py --optimization_algorithm box-search``` for box optimization using box-search (default and preferred). \
+```python main.py --optimization_algorithm gradient-descent``` for gradient descent.\
+```python main.py --wait_time 10``` for specifying wait time (in miliseconds) between frames. (default: 250) \
+```python main.py --num_points 10``` for specifying the number of points to use for the box-search. (default: 100) \
 
 ## Organization
 
