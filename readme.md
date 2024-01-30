@@ -4,7 +4,8 @@ This is a simple simulation of a three-link planar serial manipulator.
 
 ## Installation
 
-1. Download the files
+1. Clone the project \
+    ```git clone https://github.com/sanjeevg15/robolink.git```
 2. Install the dependencies \
     ```pip install -r requirements.txt```
 3. If the above fails, please try installing the dependencies manually \
