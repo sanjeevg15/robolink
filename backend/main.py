@@ -387,9 +387,9 @@ if __name__ == '__main__':
     parser.add_argument('--optimization_algorithm', type=str, default='box-search', choices=[
                         'box-search', 'gradient-descent'], help='The optimization algorithm to use for inverse kinematics. Gradient descent requires tuning the learning rate.')
 
-    parser.add_argument('--wait_time', type=int, default=250,
+    parser.add_argument('--wait_time', type=int, default=10,
                         help='Time to display images for between successive points in the trajectory.')
-    parser.add_argument('--num_points', type=int, default=100,
+    parser.add_argument('--num_points', type=int, default=10,
                         help='Number of points to use for box-search. Only specify if using box-search.')
     args = parser.parse_args()
 
