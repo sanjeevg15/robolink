@@ -2,7 +2,7 @@
 
 This is a simple simulation of a three-link planar serial manipulator.
 
-Please take a look at this Demo Video [https://youtu.be/B_PvrnDk0As]
+Please take a look at this [Demo Video](https://youtu.be/B_PvrnDk0As)
 
 ## Installation
 
